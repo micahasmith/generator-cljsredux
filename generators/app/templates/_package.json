@@ -1,0 +1,12 @@
+{
+  "name": "<%= name %>",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "serve:dev":"",
+    "start": "java -cp lib/cljs.jar:src clojure.main scripts/build.clj",
+    "watch":"java -cp lib/cljs.jar:src clojure.main scripts/watch.clj"
+  },
+  "dependencies": {
+    "rimraf": "^2.5.2"
+  }
+}
